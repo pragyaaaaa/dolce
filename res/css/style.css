@@ -176,4 +176,52 @@ header {
   .main-nav li a:active{
       border-bottom: 2px solid #74b9ff;
   }
+/* -----------------------------Features----------------------------------- */
+.section-desserts .long-copy{
+    margin-bottom: 40px;
+}
+
+/* -----------------------------Desserts----------------------------------- */
+.section-desserts{
+    padding:0;
+}
+.dessert-showcase{
+    list-style: none;
+    width: 100%;
+}
+
+.dessert-showcase li{
+    display: block;
+    float: left;
+    width: 25%; /* each list element takes 1/4th of the screen (100/4=25%) */
+}
+
+.dessert-photo{
+    width: 100%;
+    margin: 0;
+    overflow: hidden;
+    background-color: #74b9ff;
+}
+
+.dessert-photo img{
+    opacity:0.65;
+    width:100%; /* image is exactly as wide as it's container */
+    height:auto;
+    /* when we hover one of the images, the image zooms in and gets lighter. 
+    Making image dark and zoom in. */   
+    /* instead of 100%, image will be 115% big */
+    -webkit-transform: scale(1.15);
+    -ms-transform: scale(1.15);
+    transform: scale(1.15);
+    -webkit-transition: -webkit-transform 0.5s, opacity 0.5s;
+    transition: transform 0.8s, opacity 0.8s;
+}
+
+.dessert-photo img:hover{
+    opacity:1;
+    -webkit-transform: scale(1.03);
+    -ms-transform: scale(1.03);
+    transform: scale(1.03);/* fit image to container when it's hovered to give selection effect. */
+}
+
 
