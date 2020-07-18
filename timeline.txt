@@ -13,5 +13,8 @@ Part II:    (Feature-Section)
 2.  Using fluid-grid for the first time.
 3.  Using icons.
 
-Part-III
+Part-III: (Favorite-meal Section)
+1.  How to make grid of beautiful images?
+2.  How to make nice "zoom in" transition, only using CSS?
+3.  A way to make <img> elements darker.
 
