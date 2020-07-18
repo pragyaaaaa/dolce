@@ -34,6 +34,24 @@ section {
 .box {
   padding: 1%;
 }
+/* ----- LINKS ----- */
+
+a:link,
+a:visited {
+    color: #74b9ff;
+    text-decoration: none;
+    padding-bottom: 1px;
+    border-bottom: 1px solid #74b9ff;
+    -webkit-transition: border-bottom 0.2s, color 0.2s;
+    transition: border-bottom 0.2s, color 0.2s;
+}
+
+a:hover,
+a:active {
+    color: #0064c9;
+    border-bottom: 1px solid transparent;
+}
+
 /* -----------------------------Headings----------------------------------- */
 
 h1,
@@ -88,9 +106,24 @@ h2:after {
 
 /* ****************Icons***************** */
 .icon-big {
-  font-size: 350%;
-  display: block; /* forces line break */
-  color: #74b9ff;
+    font-size: 350%;
+    display: block;
+    color: #74b9ff;
+    margin-bottom: 10px;
+}
+
+.icon-small {
+    display: inline-block;
+    width: 30px;
+    text-align: center;
+    color: #74b9ff;
+    font-size: 120%;
+    margin-right: 10px;
+    
+    /*secrets to align text and icons*/
+    line-height: 120%;
+    vertical-align: middle;
+    margin-top: -5px;
 }
 /* -----------------------------Buttons----------------------------------- */
 
@@ -279,4 +312,25 @@ header {
   height: 50px;
   width: auto;
   margin-right: 10px;
+}
+
+.btn-app:link,
+.btn-app:visited {
+    border: 0;
+}
+
+.btn-app img {
+    height: 50px;
+    width: auto;
+    margin-right: 10px;
+}
+/* -----------------------------Building the cities----------------------------------- */
+.box img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 15px;
+}
+
+.city-feature {
+    margin-bottom: 5px;
 }
