@@ -1,0 +1,17 @@
+Part I: (Header)
+1.  New HTML elements: header, nav, ul, li
+2.  Put text on an image: make image darker
+3.  How to make that image as high as the browser viewport?
+4.  How to make a vertically a horizontally centered box?
+5.  How to design buttons?
+6.  The 4 link states in CSS: link, visted, hover, active
+7.  CSS3 transitions for small animations
+8.  How to create simple navigation?
+
+Part II:    (Feature-Section)
+1.  How to put content on website directly from CSS with the :after pseudo-class?
+2.  Using fluid-grid for the first time.
+3.  Using icons.
+
+Part-III
+
