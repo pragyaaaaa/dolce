@@ -21,8 +21,12 @@ Part-III:   (Favorite-meal Section)
 Part-IV:    (How it works section)
 1.  How to draw circles with CSS?
 2.  Technique for separating sections.
-3.  Incorporating App STore and Play store buttons.
+3.  Incorporating App Store and Play store buttons.
 
 Part V: (Building the cities section)
 1.  How to use small icons aligned with some text?
 2.  How to style generic links?
+
+Part VI:    (Customer Testimonial section)
+1.  How to create beautiful background-image effect?
+2.  How to effetively communicate what customers have to say?
