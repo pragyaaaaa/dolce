@@ -336,17 +336,6 @@ header {
     margin-right: 10px;
 }
 
-/* -----------------------------Building the cities----------------------------------- */
-.box img {
-    width: 100%;
-    height: auto;
-    margin-bottom: 15px;
-}
-
-.city-feature {
-    margin-bottom: 5px;
-}
-
 /* -----------------------------Customer Testimonials----------------------------------- */
 .section-testimonials {
   background-image: -webkit-linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(../css/img/back-customers.jpg);
